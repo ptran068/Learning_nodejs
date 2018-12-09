@@ -38,7 +38,7 @@ class Student {
     static getIndexOfStudentByName(name) {
         for (let i = 0; i < listStudents.length; i++) {
             if(listStudents[i].name === name)
-                console.log('Position of ' + name + ' ' + 'is ' + i);
+                console.log(`Position of ${name} is ${i}`);
         }
     }
 
@@ -59,5 +59,5 @@ Student.addStudent('son',20,false);
 Student.getAllStudent();
 Student.getStudentByIndex(2);
 Student.getIndexOfStudentByName('son');
-Student.removeStudentByName('phong');
+Student.removeStudentByName('nhan');
 Student.getAllStudent();
