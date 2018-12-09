@@ -1,0 +1,28 @@
+1. khai báo mảng chứa các object sinh vien:name, age, isFemale
+-viet ham thêm mới sinh viên vào mảng đó
+-viết hàm lấy sinh viên theo vị trí trong mảng
+-viết hàm trả về vị trí của sinh viên theo mảng theo tên.
+-viết hàm xóa 1 sinh viên trong mảng theo name.
+-using static method.
+//18h/thu4
+
+const listStudents = [];
+const student = {
+    name ,
+    age ,
+    isFemale
+}
+class Student {
+    static addStudent(student)
+        //tra ve thong tin sinh vien them moi
+    }
+
+    static getStudentByIndex(index) {
+
+        return student
+    }
+
+    static getIndexOfStudentByName(name) {
+        return index;
+    }
+}
