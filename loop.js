@@ -28,7 +28,7 @@ class Student {
         this.age = age;
     }
     showInfor() {
-        console.log('student ' + this.name + ' ' + this.age);
+        console.log(`Im ${this.name} and My age is ${this.age}`);
     }
 };
 
